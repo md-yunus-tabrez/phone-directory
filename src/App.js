@@ -19,7 +19,7 @@ class App extends Component {
   return (
     
     <div>
-      <Header />
+      <Header heading="Phone Directory"/>
         <div className="component-body-container">
           <button className="custom-btn add-btn">Add</button>
           
@@ -37,6 +37,8 @@ class App extends Component {
             <span className="grid-item action-btn-container">
               <button className="custom-btn delete-btn">Delete</button>
             </span>
+                    
+                    
                     </div>  
             })
           }
